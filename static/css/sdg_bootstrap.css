@@ -1,0 +1,91 @@
+/* Properties when webpage cannot fit navbar list */
+@media (max-width: 990px) {
+  .logo {
+    font-size: 30px;
+    font-size: x-large;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: absolute;
+    width: 100%;
+    height: 110vh;
+    background: #111111e3;
+    top: 72px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 1;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a:active {
+    background: #b5a8ff;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  .bar-colr {
+    color: #b5a8ff;
+  }
+  .top-con {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  #navbar {
+    background-color: #3330;
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 990px) {
+  .contact-control ol {
+    border: none !important;
+  }
+  .contact-control ol li {
+    margin-left: 0px !important;
+  }
+  .contact-control ol li:hover {
+    padding: 0px;
+    background-color: transparent;
+  }
+  .in-su {
+    margin-left: 0px !important;
+  }
+}
+@media only screen and (max-width: 990px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  .articles .row .half .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .articles .cover {
+    background-position: -25vmin -10vmin;
+  }
+  .numbers .rectangle {
+    width: 10rem;
+    height: 8rem;
+  }
+  .numbers .rectangle h1 {
+    font-size: 2rem;
+  }
+  .numbers .rectangle p {
+    font-size: .8rem;
+  }
+}
